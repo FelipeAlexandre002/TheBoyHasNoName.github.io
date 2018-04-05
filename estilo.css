@@ -1,0 +1,209 @@
+/**Barra Navegação-->**/
+
+.img-logo{
+	height: 40px;
+	width: 132px;
+	background: url('imagens/spotify.svg') no-repeat;
+	display: block;
+	background-size: contain;
+	color: transparent;
+
+}
+
+
+nav.navbar-transparente{
+	padding: 15px 10px;
+	background: rgba(0,0,0,0.6);
+	border: none;
+}
+.form-login {
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 150px;
+	opacity:1.0;
+	background: 
+				linear-gradient(50deg,rgb(161, 153, 153),white);
+	
+}
+
+.form-panel-login{
+	max-width: 380px;
+    margin-left: -10px;
+    margin-right: auto;
+	margin-top: 20px;
+
+}
+
+#carouselExampleIndicators{
+	height: 80%;
+	width: 80%;
+	margin-left: 10%;
+    margin-right: auto;
+}
+.nav-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	height: 20px;
+	width: 1px;
+	background:white;
+	margin-top: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a{
+	color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover{
+	background: none;
+	color:#9bf0e1;
+}
+
+/**Corpo da pagina**/
+
+.jumbotron{
+	width: 50%;
+	overflow-x: hidden;	
+	margin: 0% 25% 10% 25%;
+	box-sizing: inherit
+	
+}
+
+body,html,.capa{
+	height: 100%;
+	vertical-align: middle;
+	
+	
+}
+.principal{
+	background: url('imagens/capa.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(50deg,rgb(41, 40, 40),rgb(167, 162, 162));
+	background-attachment: fixed;
+	font-family: Circular,Helvetica,Arial,sans-serif;
+	overflow-x: hidden;	
+
+}
+
+.capa{
+	width: 100%;
+	display: table;
+}
+.texto{
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+
+#servicos{
+	background: white;
+	padding: 30px;
+
+}
+
+
+#albuns>img{
+	padding: 5px 10px;
+}
+
+
+
+/** Botões**/
+
+.btn-custom{
+	border-radius: 500px;
+	color: white;
+	-webkit-border-radius:500px;
+	-moz-border-radius:500px;
+	padding: 10px 35px;
+	margin: 0px 15px;
+	transition: background 0.4s,color 0.4s;
+
+}
+
+
+
+.btn-roxo{
+	background: #7c25f8;
+}
+
+.btn-roxo:hover{
+	background-color: #6B238E;
+	color: white;
+}
+
+.btn-branco{
+	border: 2px solid white;
+	
+}
+.btn-branco:hover{
+	background-color: white;
+	color: black;
+}
+
+.img1{
+	transform: rotate(30deg);
+	-ms-transform:rotate(30deg);
+	-webkit-transform:rotate(30deg);
+	padding: 0px 10px;
+}
+
+footer{
+	background: #000;
+	position: 	relative;
+	padding: 10px 5px;
+
+}
+
+
+
+/**TIPOGRAFIA**/
+h1{
+	font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -.04em;
+
+}
+
+#services h2{
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight: 900;
+	font-size: 50px;
+    letter-spacing: -.015em;
+	color: #7c25f8;	
+}
+
+#services h3{
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight: 900;
+	font-size: 25px;
+    letter-spacing: -.015em;
+	color: #7c25f8;	
+}
+
+#recursos{
+	color: white;
+	font-family:Arial,Helvetica,sans-serif;
+	
+}
+#recursos h3{
+	color: #7FFFD4;
+	font-weight: 700;
+}
+
+#recursos h2{
+	font-weight: 700;
+}
+
+#recursos img{
+	transform: 	rotate(30deg);
+	padding-left: 30px; 
+}
+
+.img-login {
+	margin-top: 20px;
+	width: 10%
+}
