@@ -9,9 +9,13 @@
     <link rel="icon" href="imagens/favicon.png">
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="estilo.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,25 +27,21 @@
     <!--barra de navegação-->
     <nav class="navbar navbar-inverse navbar-transparente navbar-fixed-top">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+        
         <a class="navbar-brand" href="index.html">
           <span class="img-logo">Spotify</span>
         </a>        
       </div>
 
-      <div class="collapse navbar-collapse" id="barra"> 
-          <ul class="nav navbar-nav navbar-right nav-main">
-              <li><a href="cadastro.html">Empresarial</a></li>
-              <li><a href="#">Ajuda</a></li>
-              <li><a href="#">Baixar</a></li>
+      <div  id="barra"> 
+          <ul class="nav  navbar-right nav-main">
+              <li class="nav-link"><a href="cadastro.html">Empresarial</a></li>
+              
+              <li class="nav-link"><a href="#">Ajuda</a></li>
+              <li class="nav-link"><a href="#">Baixar</a></li>
               <li class="divisor" role="separator"></li>
-              <li><a href="#">Inscrever-se</a></li>
-             <li><a href="login.html">Entrar</a></li> 
+              <li class="nav-link"><a href="#">Inscrever-se</a></li>
+             <li class="nav-link"><a href="login.html">Entrar</a></li> 
           </ul>
 
       </div>
@@ -61,16 +61,6 @@
       
 
     </div>
-    <!--/Body Principal -->
-
-    
-
-    
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+  
   </body>
 </html>

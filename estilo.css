@@ -17,23 +17,17 @@ nav.navbar-transparente{
 	border: none;
 }
 .form-login {
-    max-width: 380px;
-    margin-left: auto;
-    margin-right: auto;
-	margin-top: 150px;
+	height: 60%;
+    width:30%;
 	opacity:1.0;
 	background: 
 				linear-gradient(50deg,rgb(161, 153, 153),white);
+	margin-left: 25%;
+	margin-top:10%
 	
 }
 
-.form-panel-login{
-	max-width: 380px;
-    margin-left: -10px;
-    margin-right: auto;
-	margin-top: 20px;
 
-}
 
 #carouselExampleIndicators{
 	height: 80%;
@@ -52,9 +46,11 @@ nav.navbar-transparente{
 	margin-top: 15px;
 }
 
-.navbar-inverse .navbar-nav>li>a, #rodape .nav a{
+.navbar-inverse .navbar-nav>li>a,.nav-main, #rodape .nav a, #barra{
 	color:white;
 }
+
+
 
 .navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover{
 	background: none;
@@ -204,6 +200,6 @@ h1{
 }
 
 .img-login {
-	margin-top: 20px;
-	width: 10%
+	height: 40%;
+	width: 40%
 }
